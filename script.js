@@ -1,6 +1,6 @@
 const grid = document.querySelector('#grid');
 const gridSise = 16;
-const squareSize = 800 / gridSise;
+const squareSize = (800 - gridSise) / gridSise;
 
 for(let i=0; i < gridSise; i++){
     for(let j=0; j < gridSise; j++){

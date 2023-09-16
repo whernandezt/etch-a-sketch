@@ -21,6 +21,8 @@ h1{
 #grid {
     width: 800px;
     height: 800px;
+    margin-top: -1px;
+    margin-left: -1px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -28,5 +30,7 @@ h1{
 }
 
 .square{
-    border: 1px solid;
+    outline: 1px solid;
+    margin-top: 1px;
+    margin-left: 1px;
 }
